@@ -1,0 +1,54 @@
+ /* #root {
+    
+ } */
+ 
+ 
+ body {
+    width: 100%;
+     background-color: #79093a;
+ }
+
+.wrapper {
+    max-width: 430px;
+    width: 100%;
+    margin: 100px auto;
+}
+
+ form {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     font-size: 18px;
+     margin-top: 15px;
+     padding-bottom: 13px;
+     margin-bottom: 13px;
+     border-bottom: 2px solid whitesmoke;
+ }
+
+ form input {
+     flex: 1 1 0%;
+     margin: 0 10px;
+     font-size: 18px;
+ }
+
+ form button {
+     font-size: 18px;
+ }
+
+ .list_item {
+     display: flex;
+     font-size: 18px;
+     padding: 20px 0;
+     border-bottom: 1px solid lightgray;
+     justify-content: space-between;
+ }
+
+ .list_text {
+     flex: 1;
+     margin-left: 10px;
+ }
+
+ .list_item_checked {
+     background-color: white;
+ }
